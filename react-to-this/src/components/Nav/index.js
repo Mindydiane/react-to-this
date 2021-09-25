@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Navigation(item) {
+function Nav(item) {
 
     const handleClick = (item) = (item) => {
         console.group(item);
@@ -36,4 +36,4 @@ function Navigation(item) {
     )
 }
 
-export default Navigation;
+export default Nav;
