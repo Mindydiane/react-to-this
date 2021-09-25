@@ -9,13 +9,23 @@ function Navigation(item) {
     }
     return (
         <header className="flex-row px-1">
-        <h2>
-        <a data-testid= "link" href="/">
-        <span > Mindy Diane Garza</span>
-        </a>
-        </h2>
-        <span onClick={() => handleClick('About')}> 
-        About me </span>
+            <h2>
+                <a data-testid= "link" href="/">
+                    <span > Mindy Diane Garza</span>
+                </a>
+            </h2>
+            <nav> 
+                <ul className="flex-row">
+                    <li>
+                    <a onClick={() => handleClick('About')}> 
+                    About me 
+                    </a>
+                    </li>
+
+            
+            </ul>
+        </nav>
+        
         <span onClick={() => handleClick('Project')}>
         Projects
         </span>
