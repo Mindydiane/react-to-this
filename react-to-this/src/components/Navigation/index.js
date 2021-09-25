@@ -1,8 +1,20 @@
 import React from "react";
-function Navigation() {
+
+
+function Navigation(item) {
+
+    const handleClick = (item) = (item) => {
+        console.group(item);
+        return item;
+    }
     return (
         <div>
-        <h1>Places to go!</h1>
+        <span onClick={() => handleClick('About')}> 
+        About me </span>
+        <span onClick={() => handleClick('Project')}>
+        Projects
+        </span>
+        
         </div>
     )
 }
