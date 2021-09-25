@@ -17,20 +17,22 @@ function Nav(item) {
             <nav> 
                 <ul className="flex-row">
                     <li>
-                    <a onClick={() => handleClick('About')}> 
-                    About me 
-                    </a>
+                        <a data-testid="about" href="#about"> 
+                        About me 
+                        </a>
                     </li>
+                    <li className={"mx-2"}>
+                        <span onClick={() => handleClick('Contact')}> 
+                        Contact 
+                        </span>                   
+                    </li>
+                   
 
             
             </ul>
         </nav>
         
-        <span onClick={() => handleClick('Project')}>
-        Projects
-        </span>
-        <span onClick={() => handleClick('Contact')}> 
-        Contact </span>
+        
         
         </header>
     )
