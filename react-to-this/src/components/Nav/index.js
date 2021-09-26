@@ -8,27 +8,29 @@ function Nav(item) {
         return item;
     }
     return (
-        <header className="flex-row px-1">
+        <header >
             <h2>
                 <a data-testid= "link" href="/">
                     <span > Mindy Diane Garza</span>
                 </a>
             </h2>
             <nav> 
-                <ul className="flex-row">
-                    <li>
-                        <a data-testid="about" href="#about"> 
+                <ul className = "flex">
+                    <li className="mr-6">
+                        <a className="text-blue-500 hover:text-blue-800" href="#About"> 
                         About me 
                         </a>
                     </li>
-                    <li className={"mx-2"}>
-                        <span onClick={() => handleClick('Contact')}> 
+                    <li className="mr-6">
+                        <span className="text-blue-500 hover:text-blue-800" href="#Contact"> 
                         Contact 
                         </span>                   
                     </li>
-                   
-
-            
+                    <li className="mr-6">
+                        <a className="text-blue-500 hover:text-blue-800" href="#Portfolio"> 
+                        Portfolio
+                        </a>
+                    </li>
             </ul>
         </nav>
         
