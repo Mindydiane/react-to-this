@@ -1,11 +1,11 @@
-import React from "react";
-// import { capitalizeFirstLetter } from "../../utils/helpers";
+import React, { useEffect } from "react";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(item) {
 
-    const handleClick = (item) = (item) => {
-        console.group(item);
-        return item;
+    useEffect(() => { capitalizeFirstLetter();
+    }, [];)
+
     }
     return (
         <header >
@@ -18,12 +18,12 @@ function Nav(item) {
                     </li>
                     <li className="mr-6">
                         <span className="text-blue-700 hover:text-blue-900" href="#Contact"> 
-                        Contact 
+                        Contact Me
                         </span>                   
                     </li>
                     <li className="mr-6">
                         <a className="text-blue-700 hover:text-blue-900" href="#Portfolio"> 
-                        Portfolio
+                        My Portfolio
                         </a>
                     </li>
             </ul>
