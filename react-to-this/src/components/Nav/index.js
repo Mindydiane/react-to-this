@@ -12,17 +12,17 @@ function Nav(item) {
             <nav> 
                 <ul className = "flex">
                     <li className="mr-6">
-                        <a className="text-blue-500 hover:text-blue-800" href="#About"> 
+                        <a className="text-blue-700 hover:text-blue-900" href="#About"> 
                         About me 
                         </a>
                     </li>
                     <li className="mr-6">
-                        <span className="text-blue-500 hover:text-blue-800" href="#Contact"> 
+                        <span className="text-blue-700 hover:text-blue-900" href="#Contact"> 
                         Contact 
                         </span>                   
                     </li>
                     <li className="mr-6">
-                        <a className="text-blue-500 hover:text-blue-800" href="#Portfolio"> 
+                        <a className="text-blue-700 hover:text-blue-900" href="#Portfolio"> 
                         Portfolio
                         </a>
                     </li>
