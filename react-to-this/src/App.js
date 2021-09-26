@@ -4,13 +4,15 @@ import Nav from './components/Nav';
 // import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import About from './components/About';
+import Card from './components/About/card';
 
 
 function App() {
   return (
-    <div className = 'min-h-screen py-10 px-3 sm: px-5 bg-grapy-100'>
+    <div className = 'min-h-screen py-10 px-3 sm: px-5 bg-gray-100'>
       <Header/>
       <Nav/>
+      <Card/>
       <About></About>
       <Footer/>
     </div>

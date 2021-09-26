@@ -9,11 +9,6 @@ function Nav(item) {
     }
     return (
         <header >
-            <h2>
-                <a data-testid= "link" href="/">
-                    <span > Mindy Diane Garza</span>
-                </a>
-            </h2>
             <nav> 
                 <ul className = "flex">
                     <li className="mr-6">
