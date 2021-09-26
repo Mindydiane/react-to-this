@@ -12,6 +12,9 @@ function Card()
                             <p className='text-xl text-gray-900'> 
                             Mindy Diane Garza
                             </p>
+                            <p className='text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2'> 
+                            Full Stack Web Developer
+                            </p>
                         </div>
                 </div>
             </div>
