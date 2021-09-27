@@ -18,4 +18,9 @@ describe('Nav component', () => {
       });
     })
     
-
+    describe('links are visible', () => {
+        it('inserts text into the links', () => {
+          // Arrange
+          // Assert
+        });
+      })

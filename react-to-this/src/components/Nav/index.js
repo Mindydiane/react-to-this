@@ -1,28 +1,36 @@
-// import React, { useEffect } from "react";
+import React from "react";
+
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav(item) {
+function Nav(props) {
+    const {
+        categories = [],
+        setCurrentCategory,
+        contactSelected,
+        currentCategory,
+        setContactSelected,
+    } = props;
 
-    // useEffect(() => { capitalizeFirstLetter();
-    // }, [];)
+    // useEffect(() => { capitalizeFirstLetter(currentCategory.name);
+    // }, [currentCategory]);
 
-    // }
+   
     return (
-        <header >
+        <header>
             <nav> 
-                <ul className = "flex">
+                <ul class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <li className="mr-6">
-                        <a className="text-blue-700 hover:text-blue-900" href="#About"> 
+                        <a className="text-blue-700 font-bold hover:text-blue-900" href="/About"> 
                         About me 
                         </a>
                     </li>
                     <li className="mr-6">
-                        <span className="text-blue-700 hover:text-blue-900" href="#Contact"> 
+                        <span className="text-blue-700 font-bold hover:text-blue-900" href="/Contact"> 
                         Contact Me
                         </span>                   
                     </li>
                     <li className="mr-6">
-                        <a className="text-blue-700 hover:text-blue-900" href="#Portfolio"> 
+                        <a className="text-blue-700 font-bold hover:text-blue-900" href="/Portfolio"> 
                         My Portfolio
                         </a>
                     </li>

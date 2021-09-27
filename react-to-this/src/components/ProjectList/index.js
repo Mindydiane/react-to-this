@@ -51,14 +51,14 @@ function ProjectList() {
     return(
       <div>
       {isProjectOpen && <Project onClose={toggleProject} currentProject={currentProject} />}
-      <div className="">
+      <div className="flex-row">
         {currentPhotos.map((project, i) => (
           <img
-            src={require(project.image)}
-            alt={project.name}
-            className=""
-            onClick={() => toggleProject(project, i)}
-            key={project.name}
+            src={require(`../../assets/portfolio-images/${category}/${1}.jpg`)}
+            alt={image.name}
+            className="img-thumbnail mx-1"
+            onClick={() => toggleProject(image, i)}
+            key={image.name}
           />
         ))}
       </div>
