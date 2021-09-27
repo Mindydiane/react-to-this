@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+// import React, { useEffect } from "react";
+// import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(item) {
 
-    useEffect(() => { capitalizeFirstLetter();
-    }, [];)
+    // useEffect(() => { capitalizeFirstLetter();
+    // }, [];)
 
-    }
+    // }
     return (
         <header >
             <nav> 

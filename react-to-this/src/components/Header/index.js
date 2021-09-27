@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../../images/image.jpg';
+import profile from '../../assets/portfolio-images/profile-pic/me.jpg';
 import Nav from '../Nav';
 function Header()
 {
