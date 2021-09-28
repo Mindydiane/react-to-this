@@ -5,33 +5,33 @@ exports[`Nav component matches snapshot 1`] = `
   <header>
     <nav>
       <ul
-        class="flex"
+        className="flex"
       >
         <li
-          class="mr-6"
+          className="mr-6"
         >
           <a
-            class="text-blue-700 hover:text-blue-900"
+            className="text-blue-700 hover:text-blue-900"
             href="#About"
           >
             About me
           </a>
         </li>
         <li
-          class="mr-6"
+          className="mr-6"
         >
           <span
-            class="text-blue-700 hover:text-blue-900"
+            className="text-blue-700 hover:text-blue-900"
             href="#Contact"
           >
             Contact Me
           </span>
         </li>
         <li
-          class="mr-6"
+          className="mr-6"
         >
           <a
-            class="text-blue-700 hover:text-blue-900"
+            className="text-blue-700 hover:text-blue-900"
             href="#Portfolio"
           >
             My Portfolio
