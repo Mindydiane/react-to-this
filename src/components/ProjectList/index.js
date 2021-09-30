@@ -3,7 +3,7 @@ import Project from '../Project';
 
 function ProjectList() {
     const [isProjectOpen, setIsProjectOpen] = useState(false);
-    const [currentProject setCurrentProject] = useState();
+    const [currentProject, setCurrentProject] = useState();
     
     const [projects] = useState([
         {
@@ -18,13 +18,11 @@ function ProjectList() {
           },
           {
             name: 'calender-proj',
-            category: 'html-css,
+            category: 'html-css',
             description: 'A Simple Calender app that displays correct Time and Date',
           },
           {
             name: 'recipe-selector',
-            src: "../../images/recipe-selector.png",
-            href: "https://mindydiane.github.io/recipe-selector/",
             category: 'group project',
             description: 'This webpage will allow the undecided user to find new recipes to ingredients they already have in their kitchen.',
           },
@@ -44,7 +42,7 @@ function ProjectList() {
     const currectProject = projects.gilter((project) => project.category === category)
 
     const toggleProject = () => {
-      setCurrectProject({ });
+      setCurrectProject({ src });
       setIsProjectOpen(!isProjectOpen);
     }
 
@@ -52,13 +50,13 @@ function ProjectList() {
       <div>
       {isProjectOpen && <Project onClose={toggleProject} currentProject={currentProject} />}
       <div className="flex-row">
-        {currentPhotos.map((project, i) => (
+        {projects.map((project, i) => (
           <img
-            src={require(`../../assets/portfolio-images/${category}/${1}.jpg`)}
-            alt={image.name}
+            src={}
+            alt={project.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleProject(image, i)}
-            key={image.name}
+            key={project.name}
           />
         ))}
       </div>

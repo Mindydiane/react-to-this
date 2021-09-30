@@ -5,10 +5,11 @@ function Project({ onClose, currentProject}) {
   const { name, description, category, index  } = currentProject;
 
   return (
-    <div className=" ">
-      <div className=" ">
+    <div>
+      <div>
         <h3 className=" ">{name} </h3>
         <img src={require(`../../assets/large/${category}/${index}.jpg`)} alt="current category" />
+        <ProjectList></ProjectList>
         <p>
           {description}
         </p>

@@ -6,9 +6,9 @@ function Header()
     return(
         <div className='w-full'>
             <div className='flex flex-col justify-center max-w-ms bg-pink-400 shadow-x1 rounded-x1'>
-                <div >
+                <div>
                 
-                    <img className= 'w-32 mx-auto shadow-xl rounded-full drop-shadow-md' src={profile} alt='profile photo'>
+                    <img className= 'w-32 mx-auto shadow-xl rounded-full' src={profile} alt='profile'>
                     </img>
                         <div className="text-center mt-5">
                             <p className='text-xl text-blue-100 font-bold'> 

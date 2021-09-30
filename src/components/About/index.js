@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 function About() {
     return (
-        <section className='max-w-4xl mt-20 mx-auto'>
+        <section id="About" className='max-w-4xl mt-20 mx-auto'>
             <h1 className='text-2xl text-black md:text-4xl font-bold text-center'>
             This is about me
             </h1>

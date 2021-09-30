@@ -19,7 +19,7 @@ function Footer() {
                         <FaLinkedin />
                         <span class ='sr-only'>LinkedIn</span>    
                     </a>
-                    <a className = "text-xl m-1 p-1 sm:m-2 sm:p-2 text-indigo-800 hover:bg-indigo-900 rounded-full hover:text-white transition-colors duration-300">
+                    <a className = "text-xl m-1 p-1 sm:m-2 sm:p-2 text-indigo-800 hover:bg-indigo-900 rounded-full hover:text-white transition-colors duration-300" href="#">
                         <FaEnvelope />
                         <span class ='sr-only'>Email</span>    
                     </a>
